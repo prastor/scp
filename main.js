@@ -37,6 +37,8 @@ module.exports.loop = function () {
     }
 
     // setup some minimum numbers for different roles
+	// i wonder if there is a better way to do this
+	
     var minimumNumberOfHarvesters = 2;
     var minimumNumberOfUpgraders = 1;
     var minimumNumberOfBuilders = 2;
